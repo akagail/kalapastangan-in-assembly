@@ -1,12 +1,12 @@
-those .obj and .exe is a must!
+<h1>those .obj and .exe is a must!</h1>
 
-if .asm is modified, run on x64 Native Tools Command Prompt Terminal:
+<p>if .asm is modified, run on x64 Native Tools Command Prompt Terminal:</p>
 
--- this creates an object
-"nasm -f win64 filename.asm -o filename.asm"
+<p>-- this creates an object</p>
+<p>"nasm -f win64 filename.asm -o filename.asm"</p>
 
--- this links and creates an .exe
-link filename.obj kernel32.lib /subsystem:console /entry:main
+<p>-- this links and creates an .exe</p>
+<p>"link filename.obj kernel32.lib /subsystem:console /entry:main"</p>
 
--- run
-filename.exe
+<p>-- run</p>
+<p>pfilename.exe</p>
