@@ -9,4 +9,4 @@
 <p>"link filename.obj kernel32.lib /subsystem:console /entry:main"</p>
 
 <p>-- run</p>
-<p>pfilename.exe</p>
+<p>filename.exe</p>
